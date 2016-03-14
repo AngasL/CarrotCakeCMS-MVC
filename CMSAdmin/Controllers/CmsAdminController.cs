@@ -137,7 +137,6 @@ namespace Carrotware.CMS.Mvc.UI.Admin.Controllers {
 				exUsr.FirstName = model.FirstName;
 				exUsr.LastName = model.LastName;
 				exUsr.UserBio = model.UserBio;
-
 				exUsr.Save();
 
 				if (result.Succeeded) {
